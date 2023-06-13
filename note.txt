@@ -1,0 +1,13 @@
+Django's core architecture is MVT => Model, View and Template.
+Model => Deals with data manipulation. 
+View => This is the core logic of the entire app, it is the most important part.
+Template => This deals with the visuals, HTML.
+Static folder => contains CSS, JavaScript and image.
+
+pipenv shell
+django-admin startproject App . 
+
+django-admin is used to initially start a Django project. 
+manage.py is a script file that does the same thing as django-admin, but you use it for subsequent administrative task. 
+
+whenever you make changes to models.py, always make migrations and migrate.
